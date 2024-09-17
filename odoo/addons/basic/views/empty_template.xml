@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="404" inherit_id="http_routing.404" name="Page Not Found">
+        <xpath expr="//img[hasclass('img')]" position="replace">
+            <img class="img img-fluid mx-auto" src="/web_editor/shape/http_routing/404.svg"/>
+        </xpath>
+    </template>
+
+</odoo>
